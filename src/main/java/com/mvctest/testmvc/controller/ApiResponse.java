@@ -13,4 +13,11 @@ public class ApiResponse<T> {
     this.message = message;
     this.data = null;
   }
+
+  public T getData() {
+    return data;
+  }
+  public String getMessage() {
+    return message;
+  }
 }
